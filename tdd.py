@@ -6,7 +6,7 @@ def IsOdd(n):
 
 # Here's out "unit tests"
 class IsOddTests(unittest.TestCase):
-    def TestOne(self):
+    def testOne(self):
         self.failUnless(IsOdd(1))
     def testTwo(self):
         self.failIf(IsOdd(2))
