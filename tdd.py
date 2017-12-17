@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+"""
+Code copied from [1].
+
+---
+
+References:
+    [1]: http://www.onlamp.com/pub/a/python/2004/12/02/tdd_pyunit.html
+"""
+
 import unittest
 
 # Here's our "unit"
